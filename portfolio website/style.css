@@ -7,8 +7,8 @@ justify-content: center;
 }
 
 h1,h2,h3,p{
-    margin: 0;
-    padding:0;
+    margin: 5px;
+    padding:5px;
 }
 
 a{
@@ -39,32 +39,65 @@ header{
     display: flex;
     gap: 10px;
     align-items: flex-end;
+    flex: 2 1 100px;
     
 }
 
 .nav_wrap{
     display: flex;
-    gap: 40px;
-    
+    justify-content: space-around;
+    flex: 1 1 10px;
+}
+span{
+    display: flex;
 }
 
 
 
 section {
     display: flex;
+    justify-content: center;
+
+}
+
+.sct_wrap{
+    display: flex;
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 
-
+.photo_wrap{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100px;
+}
 
 .photo{
-    width:80%;
+display: flex;
+    width:70%;
     border-radius: 50%;
   filter: grayscale(100%);
 }
 
 .aboutme_wrap{
     display: flex;
+   flex: 1 1 100px;
     flex-direction: column;
 
 }
+
+h1{
+    font-size:42px 
+}
+
+
+.btn_sct{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+
