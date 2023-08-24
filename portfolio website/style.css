@@ -32,7 +32,8 @@ flex-direction: column;
 header{
     display: flex;
     justify-content: space-between;
-   margin: 20px;
+    border-bottom: solid rgb(184, 182, 182);
+   padding: 20px;
 
 }
 .name_wrap{
@@ -101,3 +102,15 @@ h1{
 }
 
 
+footer{
+    display: flex;
+    border-top: solid rgb(184, 182, 182);
+    justify-content: space-between;
+}
+
+.f_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
