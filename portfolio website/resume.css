@@ -1,0 +1,23 @@
+h1,h2{
+    padding: 0;
+    margin:0;
+}
+
+.resumr_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.block_wrap{
+    display: flex; 
+    flex-direction:row;
+}
+
+.title{
+    display: flex;  
+}
+
+.discr_wrap{
+    display: flex;  
+}
